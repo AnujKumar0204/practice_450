@@ -1,0 +1,13 @@
+E:\Github Projects\practice_450\C#\Array\bin\Debug\netcoreapp3.1\Array.exe
+E:\Github Projects\practice_450\C#\Array\bin\Debug\netcoreapp3.1\Array.deps.json
+E:\Github Projects\practice_450\C#\Array\bin\Debug\netcoreapp3.1\Array.runtimeconfig.json
+E:\Github Projects\practice_450\C#\Array\bin\Debug\netcoreapp3.1\Array.runtimeconfig.dev.json
+E:\Github Projects\practice_450\C#\Array\bin\Debug\netcoreapp3.1\Array.dll
+E:\Github Projects\practice_450\C#\Array\bin\Debug\netcoreapp3.1\Array.pdb
+E:\Github Projects\practice_450\C#\Array\obj\Debug\netcoreapp3.1\Array.csprojAssemblyReference.cache
+E:\Github Projects\practice_450\C#\Array\obj\Debug\netcoreapp3.1\Array.AssemblyInfoInputs.cache
+E:\Github Projects\practice_450\C#\Array\obj\Debug\netcoreapp3.1\Array.AssemblyInfo.cs
+E:\Github Projects\practice_450\C#\Array\obj\Debug\netcoreapp3.1\Array.csproj.CoreCompileInputs.cache
+E:\Github Projects\practice_450\C#\Array\obj\Debug\netcoreapp3.1\Array.dll
+E:\Github Projects\practice_450\C#\Array\obj\Debug\netcoreapp3.1\Array.pdb
+E:\Github Projects\practice_450\C#\Array\obj\Debug\netcoreapp3.1\Array.genruntimeconfig.cache

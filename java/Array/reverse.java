@@ -4,9 +4,28 @@ public class reverse {
 
     public static void main(String[] args) {
         
-        String s = "Geeks";
+        int n;
+        int[] array = new int[100];
+
+        Scanner sc=new Scanner(System.in); 
+        System.out.println("Enter length of array: "); 
+        n=sc.nextInt(); 
         
-        System.out.println(new Swap().reverseWord(s));
+        System.out.println("Enter the elements of the array: ");  
+        for(int i=0; i<n; i++){  
+          
+            array[i]=sc.nextInt();  
+        }  
+        System.out.println("Array elements Before Reverse are: ");  
+        
+        for (int i=0; i<n; i++){  
+            System.out.print(array[i] + " ");  
+        }  
+        System.out.println(); 
+        int start = 0;
+        int end = n-1;
+        
+        new Swap().reverseWord(array, start, end);
 
 
     }
@@ -16,17 +35,24 @@ public class reverse {
 
 class Swap{
 
-    public static String reverseWord(String str){
+    public static void reverseWord(int[] arr, int start, int end){
 
-        
-        String reverse = new StringBuffer(str).reverse().toString();
+        int temp;
+          
+        while (start < end)
+        {
+            temp = arr[start];
+            arr[start] = arr[end];
+            arr[end] = temp;
+            start++;
+            end--;
+        }
 
-        char ch[] = str.toCharArray();
 
-        
-
-
-        return reverse;
+        for (int i = 0; i <= end+1; i++)
+             System.out.print(arr[i] + " ");
+          
+         System.out.println();
 
     }
 
